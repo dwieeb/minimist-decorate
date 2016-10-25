@@ -36,7 +36,7 @@ class MyCommand {
 }
 
 const cmd = new MyCommand();
-cmd.run();
+cmd.run('', false, 0);
 ```
 
 ### differences to minimist
