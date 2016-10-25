@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "outDir": "dist",
+        "strictNullChecks": true,
+        "sourceMap": false,
+        "target": "es6"
+    },
+    "files": [
+        "src/index.ts"
+    ]
+}

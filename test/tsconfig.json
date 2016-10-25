@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "declaration": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "sourceMap": false,
+        "target": "es6"
+    }
+}

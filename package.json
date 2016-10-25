@@ -1,0 +1,32 @@
+{
+  "name": "minimist-decorators",
+  "version": "0.0.1",
+  "description": "Use ES7 decorators to declare CLI input in a clean, type-safe fashion.",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "tsc -p test/tsconfig.json",
+    "test": "ava",
+    "tslint": "tslint 'src/**/*.ts'",
+    "tsc": "tsc",
+    "build": "npm run tslint && npm run tsc"
+  },
+  "author": "Daniel Imhoff <dwieeb@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6"
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.1.29",
+    "@types/node": "^6.0.45",
+    "@types/reflect-metadata": "0.0.5",
+    "ava": "^0.16.0",
+    "tslint": "^4.0.0-dev.0",
+    "typescript": "^2.1.0-dev.20161020"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "peerDependencies": {
+    "reflect-metadata": "^0.1.8"
+  }
+}

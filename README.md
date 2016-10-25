@@ -8,6 +8,7 @@ command line arguments and options using James Halliday's
 
 * node 6+
 * install [`reflect-metadata`](https://github.com/rbuckton/ReflectDecorators)
+  (`npm install --save reflect-metadata`)
 
 ## usage
 
