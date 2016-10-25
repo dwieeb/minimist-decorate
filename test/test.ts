@@ -3,10 +3,7 @@ import test from 'ava';
 
 import { command, option } from '../dist';
 
-// interface Global {
-//   Reflect: any;
-// }
-
+// https://github.com/avajs/ava/issues/1089
 const g = <any>global;
 const Reflect = g.Reflect;
 
